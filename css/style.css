@@ -46,3 +46,16 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+body{
+    background: #49617e;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+.wrapper .header{
+
+}
+.wrapper .content{
+
+}
