@@ -51,7 +51,27 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .wrapper{
-    width: 100%;
+    width: 930px;
+    margin: 0 auto;
+}
+#slider {
+    width:600px;
+    height:250px;
+
+    /*IE bugfix*/
+    padding:0;
+    margin:0;
+}
+#page {
+    width:600px;
+    margin:50px auto;
+}
+#slider li {
+    list-style:none;
+}
+#page {
+    width:600px;
+    margin:50px auto;
 }
 .wrapper .header{
 
