@@ -3,4 +3,8 @@
  */
 $(document).ready(function(){
     $('#slider').rhinoslider();
+    $( "#datepicker" ).datepicker({
+        inline: true
+    });
+    $( "#tabs" ).tabs();
 });
