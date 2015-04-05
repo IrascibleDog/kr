@@ -146,6 +146,7 @@ body{
     width: 930px;
     height: 673px;
     top: 180px;
+    display: none;
 }
 .wrapper .header .head-menu .show-head .menu-block{
     float: left;
@@ -281,6 +282,179 @@ body{
 .slide-menu ul li a:hover{
     color: #41989b;
 }
-.wrapper .content{
+.show-head .show-head-wrapper .social-block{
+    float: left;
+    margin: 0 0 0 15px;
+    width: 450px;
+}
+.show-head .show-head-wrapper .social-block .social-first{
+    width: 215px;
+    height: 315px;
+    background: #ffffff;
+    float: left;
+}
+.show-head .show-head-wrapper .social-block .social-first p{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 24px 0 20px 70px;
+    color: #596165;
+}
+.show-head .show-head-wrapper .social-block .social-first p:hover{
+    color: #4fc6f8;
+    cursor: pointer;
+}
+.show-head .show-head-wrapper .social-block .social-first p:first-child{
+    background: url("../img/rss/facebook_icon_normal.png") no-repeat 20px center;
+}
+.show-head .show-head-wrapper .social-block .social-first p:first-child:hover{
+    background: url("../img/rss/facebook_icon_active.png") no-repeat 20px center;
+}
+.show-head .show-head-wrapper .social-block .social-first p:first-child+p{
+    background: url("../img/rss/twitter_icon_normal.png") no-repeat 20px center;
+}
+.show-head .show-head-wrapper .social-block .social-first p:first-child+p:hover{
+    background: url("../img/rss/twitter_icon_active.png") no-repeat 20px center;
+}
+.show-head .show-head-wrapper .social-block .social-first p:first-child+p+p{
+    background: url("../img/rss/g+_icon_normal.png") no-repeat 20px center;
+}
+.show-head .show-head-wrapper .social-block .social-first p:first-child+p+p:hover{
+    background: url("../img/rss/g+_icon_active.png") no-repeat 20px center;
+}
+.show-head .show-head-wrapper .social-block .social-first p:first-child+p+p+p{
+    background: url("../img/rss/rss_icon_normal.png") no-repeat 20px center;
+}
+.show-head .show-head-wrapper .social-block .social-first p:first-child+p+p+p:hover{
+    background: url("../img/rss/rss_icon_active.png") no-repeat 20px center;
+}
+.show-head .show-head-wrapper .social-block .social-first p:first-child+p+p+p+p{
+    background: url("../img/rss/pinterest_icon_normal.png") no-repeat 20px center;
+}
+.show-head .show-head-wrapper .social-block .social-first p:first-child+p+p+p+p:hover{
+    background: url("../img/rss/pinterest_icon_active.png") no-repeat 20px center;
+}
+.show-head .show-head-wrapper .social-block .social-second{
+    float: left;
+    width: 217px;
+    height: 150px;
+    background: #4d6baa;
+    margin: 0 0 0 18px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.social-block .social-second img:first-child{
+    float: left;
+    padding: 20px 155px 0 20px;
+}
+.social-block .social-second img:last-child{
+    float: left;
+    margin: 50px 0 0 5px;
+    cursor: pointer;
+}
+.social-block .social-second .left{
+    float: left;
+    margin: 55px 0 0 20px;
+}
+.social-block .social-second .right{
+    float: left;
+    margin: 55px 0 0 70px;
+}
+.show-head .show-head-wrapper .social-block .social-third{
+    float: left;
+    width: 217px;
+    height: 150px;
+    background: #4fc6f8;
+    margin: 15px 0 0 18px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.social-block .social-third img:first-child{
+    float: left;
+    padding: 20px 155px 0 20px;
+}
+.social-block .social-third img:last-child{
+    float: left;
+    margin: 55px 0 0 5px;
+    cursor: pointer;
+}
+.social-block .social-third .left{
+    float: left;
+    margin: 60px 0 0 20px;
+}
+.social-block .social-third .right{
+    float: left;
+    margin: 60px 0 0 60px;
+}
+.show-head .show-head-wrapper .social-block .social-forth{
+    float: left;
+    background: #ffffff;
+    width: 450px;
+    height: 165px;
+    margin: 14px 0 0;
+}
+.show-head .show-head-wrapper .social-block .social-forth h1{
+    font-weight: normal;
+    color: #475055;
+    text-align: center;
+    font-size: 24px;
+    margin: 25px 0 0;
+}
+.show-head .show-head-wrapper .social-block .social-forth p{
+    font-weight: 100;
+    color: #475055;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 0 0;
+}
+.show-head .show-head-wrapper .social-block .social-forth .buttons{
+    text-align: center;
+    margin: 20px 0 0;
+}
+.show-head .show-head-wrapper .social-block .social-forth .buttons a{
+    margin: 10px;
+}
+.show-head .show-head-wrapper .social-block .social-fifth{
+    float: left;
+    background: #ffffff;
+    width: 450px;
+    height: 165px;
+    margin: 14px 0 0;
+}
+.show-head .show-head-wrapper .social-block .social-fifth h1{
+    font-weight: normal;
+    color: #475055;
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0 0;
+}
+.show-head .show-head-wrapper .social-block .social-fifth p{
+    font-weight: normal;
+    color: #475055;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px 0 0;
+}
+.show-head .show-head-wrapper .social-block .social-fifth .spam-subscribe{
+    text-align: center;
+    margin: 25px 0 0;
+}
+.show-head .show-head-wrapper .social-block .social-fifth .spam-subscribe input[type=text]{
+    border: 1px solid #c5c9cc;
+    color: #c5c9cc;
+    height: 37px;
+    width: 286px;
+}
+.show-head .show-head-wrapper .social-block .social-fifth .spam-subscribe input[type=submit]{
+    background: none repeat scroll 0 0 #ea6060;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    height: 41px;
+    margin-left: 10px;
+    width: 80px;
+}
+.wrapper .middle{
     
 }
