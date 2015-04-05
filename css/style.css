@@ -174,43 +174,43 @@ body{
 .show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child>a{
     background: url("../img/side_menu/home_icon.png") no-repeat scroll 20px 15px rgba(0, 0, 0, 0);
 }
-.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child>a:hover{
+.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child:hover>a{
     background: url("../img/side_menu/home_icon_selected.png") no-repeat scroll 20px 15px rgba(0, 0, 0, 0);
 }
 .show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li>a{
     background: url("../img/side_menu/shop_icon.png") no-repeat scroll 20px 15px rgba(0, 0, 0, 0);
 }
-.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li>a:hover{
+.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li:hover>a{
     background: url("../img/side_menu/shop_icon_selected.png") no-repeat scroll 20px 15px rgba(0, 0, 0, 0);
 }
 .show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li>a{
-    background: url("../img/side_menu/note_icon.png") no-repeat scroll 20px 15px rgba(0, 0, 0, 0);
+    background: url("../img/side_menu/note_icon.png") no-repeat scroll 23px 15px rgba(0, 0, 0, 0);
 }
-.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li>a:hover{
-    background: url("../img/side_menu/note_icon_selected.png") no-repeat scroll 20px 15px rgba(0, 0, 0, 0);
+.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li:hover>a{
+    background: url("../img/side_menu/note_icon_selected.png") no-repeat scroll 23px 15px rgba(0, 0, 0, 0);
 }
 .show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li>a{
     background: url("../img/side_menu/users_icon.png") no-repeat scroll 20px 20px rgba(0, 0, 0, 0);
 }
-.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li>a:hover{
+.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li:hover>a{
     background: url("../img/side_menu/users_icon_selected.png") no-repeat scroll 20px 20px rgba(0, 0, 0, 0);
 }
 .show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li + li>a{
     background: url("../img/side_menu/trophy_icon.png") no-repeat scroll 20px 15px rgba(0, 0, 0, 0);
 }
-.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li + li>a:hover{
+.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li + li:hover>a{
     background: url("../img/side_menu/trophy_icon_selected.png") no-repeat scroll 20px 15px rgba(0, 0, 0, 0);
 }
 .show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li + li + li>a{
     background: url("../img/side_menu/info_icon.png") no-repeat scroll 20px 15px rgba(0, 0, 0, 0);
 }
-.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li + li + li>a:hover{
+.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li + li + li:hover>a{
     background: url("../img/side_menu/info_icon_selected.png") no-repeat scroll 20px 15px rgba(0, 0, 0, 0);
 }
 .show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li + li + li + li>a{
     background: url("../img/side_menu/email_icon.png") no-repeat scroll 20px 20px rgba(0, 0, 0, 0);
 }
-.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li + li + li + li>a:hover{
+.show-head>.show-head-wrapper>.menu-block>.left-menu>li:first-child + li + li + li + li + li + li:hover>a{
     background: url("../img/side_menu/email_icon_selected.png") no-repeat scroll 20px 20px rgba(0, 0, 0, 0);
 }
 .show-head>.show-head-wrapper>.menu-block>.left-menu>li:hover, .show-head>.show-head-wrapper>.menu-block>.left-menu>li:hover>a{
@@ -222,10 +222,64 @@ body{
     width: 225px;
     background: #c5cdd1;
 }
+.menu-block .about img{
+    float: left;
+}
+.menu-block .about p{
+    color: #ffffff;
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0 0 0 20px;
+    line-height: 17px;
+}
+.menu-block .about div{
+    float: left;
+    margin: 22px;
+    width: 180px;
+}
+.menu-block .about div:first-child + div p{
+    margin-left: 5px;
+}
 .top-menu .show-head .show-head-wrapper{
     height: 100%;
     position: relative;
     width: 100%;
+}
+.slide-menu{
+    height: 673px;
+    left: 225px;
+    position: absolute;
+    top: 0;
+    width: 240px;
+    display: none;
+}
+.slide-menu ul{
+
+}
+.slide-menu ul li{
+    background: none repeat scroll 0 0 #152840;
+    border-bottom: 1px solid #49647e;
+    padding: 20px;
+}
+.slide-menu ul li:last-child{
+    border: none;
+}
+.slide-menu ul li:hover{
+    background: none repeat scroll 0 0 #263a54;
+}
+.slide-menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 7px 0;
+}
+.slide-menu ul li a:first-child{
+    color: #41989b;
+    background: url("../img/side_menu/arrow.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+.slide-menu ul li a:hover{
+    color: #41989b;
 }
 .wrapper .content{
     

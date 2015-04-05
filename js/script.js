@@ -7,4 +7,12 @@ $(document).ready(function(){
         inline: true
     });
     $( "#tabs" ).tabs();
+    $(".menu-block > .left-menu > li").hover(
+        function(){
+            $("div", this).show(180);
+        },
+        function(){
+            $("div", this).hide(180);
+        }
+    );
 });
