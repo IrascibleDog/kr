@@ -176,7 +176,7 @@ $(document).ready(function(){
         }
     });
 
-    $('spam-sign').click(function(){
+    $('#spam-sign').click(function(){
         if (error != true){
             alert( "You joined Newsletter!!" );
         }
