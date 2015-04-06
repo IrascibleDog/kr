@@ -1008,10 +1008,13 @@ input[type=submit]{
 .big-info{
     position: relative;
 }
-.big-info .first-info img{
+.big-info .first-info img:first-child{
     top: 0;
     left: 0;
     position: absolute;
+}
+.big-info .first-info img{
+
 }
 .big-info .second-info .video{
 
@@ -1104,4 +1107,7 @@ input[type=submit]{
 }
 #login-form label{
 
+}
+.after-video .second .right{
+    float: left;
 }

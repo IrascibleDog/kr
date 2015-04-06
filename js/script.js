@@ -96,32 +96,57 @@ $(document).ready(function(){
         }
     });
 
+    var error = true;
     var entry = $('.required-entry');
     $(entry).focus(function(){
         $(this).val('');
+        $(this).css("color","#000");
     });
     entry.blur(function(){
         if ($(this).val() != ""){
             $(this).css({border: '1px solid green'});
+            error = false;
         }
         else
         {
             $(this).css({border: '1px solid red'});
+            error = true;
         }
     });
 
     var login = $('.validate-email');
     $(login).focus(function(){
-       $(this).val('');
+        $(this).val('');
+        $(this).css("color","#000");
     });
     login.blur(function () {
         login = $(this);
         var val = login.val();
         if (validateEmail(val) == true){
             $(login).css({border: '1px solid green'});
+            error = false;
         }
         else{
             $(login).css({border: '1px solid red'});
+            error = true;
+        }
+    });
+
+    $('#registration-submit').click(function(){
+        if (error != true){
+            alert( "Login correct!" );
+        }
+    });
+
+    $('spam-sign').click(function(){
+        if (error != true){
+            alert( "You joined Newsletter!!" );
+        }
+    });
+
+    $('#question-send').click(function(){
+        if (error != true){
+            alert( "We soon will have your question!!!" );
         }
     });
 });
