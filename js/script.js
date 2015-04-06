@@ -38,4 +38,7 @@ $(document).ready(function(){
             count=1;
         }
     });
+    $("#first-text-cut").dotdotdot({
+        after: "a.readmore"
+    });
 });

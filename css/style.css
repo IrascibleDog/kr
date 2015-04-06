@@ -494,8 +494,48 @@ body{
     height: 300px;
     width: 615px;
     position: relative;
+    background: #787878;
 }
-.wrapper .middle .video-block .right img{
+.wrapper .middle .video-block .right .slide-right{
+    background: none repeat scroll 0 0 #1f3045;
     height: 300px;
-    width: 615px;
+    width: 105px;
+}
+div.box {
+    height: 120px;
+    padding: 30px 75px 0;
+    /* 				overflow: hidden; */
+}
+.wrapper .middle .video-block .left .video{
+    background: none repeat scroll 0 0 #ea6060;
+    height: 30px;
+    width: 35px;
+    margin: 30px 0 0;
+    float: left;
+}
+.wrapper .middle .video-block .left .video img{
+    padding: 6px;
+}
+.wrapper .middle .video-block .left h1{
+    color: #475055;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 35px 0 0 75px;
+    width: 180px;
+}
+.wrapper .middle .video-block .left .time{
+    color: #a3abaf;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 0 0 75px;
+}
+.wrapper .middle .video-block .left #first-text-cut{
+    color: #475055;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.wrapper .middle .video-block .left #first-text-cut a{
+    text-decoration: none;
+    color: #ea6060;
 }
