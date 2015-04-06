@@ -111,6 +111,25 @@ $(document).ready(function(){
         {
             $(this).css({border: '1px solid red'});
             error = true;
+            $(this).tooltip({
+                items: "[title]",
+                content: function() {
+                    var element = $( entry );
+                    if ( element.is( "[title]" ) ) {
+                        return element.attr( "title" );
+                    }
+                },
+                position: {
+                    my: "center bottom-20",
+                    at: "center top",
+                    using: function( position, feedback ) {
+                        $( this ).css( position );
+                        $( "<div>" )
+                            .addClass( "tool-tip-show" )
+                            .appendTo( this );
+                    }
+                }
+            });
         }
     });
 
@@ -129,6 +148,25 @@ $(document).ready(function(){
         else{
             $(login).css({border: '1px solid red'});
             error = true;
+            $(this).tooltip({
+                items: "[title]",
+                content: function() {
+                    var element = $( login );
+                    if ( element.is( "[title]" ) ) {
+                        return element.attr( "title" );
+                    }
+                },
+                position: {
+                    my: "center bottom-20",
+                    at: "center top",
+                    using: function( position, feedback ) {
+                        $( this ).css( position );
+                        $( "<div>" )
+                            .addClass( "tool-tip-show" )
+                            .appendTo( this );
+                    }
+                }
+            });
         }
     });
 
@@ -148,6 +186,24 @@ $(document).ready(function(){
         if (error != true){
             alert( "We soon will have your question!!!" );
         }
+    });
+
+
+
+    $('.readmore').click(function(){
+       $('#popupwrapper').show();
+        var content = $("#second-text-cut").triggerHandler("originalContent");
+        $(this).hide();
+        $("#second-text-cut").append(content);
+    });
+
+
+
+    $('#clickme').click(function(){
+        $('#popupwrapper').show();
+    });
+    $('#closeclick').click(function(){
+        $('#popupwrapper').hide();
     });
 });
 function validateEmail(elementValue){
