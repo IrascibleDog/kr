@@ -1198,11 +1198,11 @@ fieldset .help {
 #popupwrapper #popup-title{
     float: left;
     font-size: 20px;
-    padding: 40px 0 0 40px;
+    padding: 40px 40px 0 40px;
 }
 #popupwrapper #popup-text{
     float: left;
     font-size: 12px;
-    padding: 10px 0 0 40px;
+    padding: 10px 40px 0 40px;
 }
 
