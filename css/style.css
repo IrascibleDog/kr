@@ -654,16 +654,20 @@ div.box {
     margin-top: 15px;
 }
 #datepicker{
-    width: 300px;
+    width: 295px!important;
     height: 300px;
     float: left;
+    margin-left: 5px;
+}
+.ui-datepicker-header, .ui-widget-header{
+    width: 295px!important;
 }
 .ui-widget-content {
     border: none!important;
     border-radius: 0!important;
     color: #ffffff;
-    height: 300px;
-    width: 300px;
+    height: 300px!important;
+    width: 294px!important;
     margin: 0!important;
     padding: 0!important;
     background: #152840!important;
@@ -722,7 +726,7 @@ div.box {
 }
 .ui-datepicker td {
     background: none repeat scroll 0 0 #263a54 !important;
-    line-height: 40px;
+    line-height: 33px;
     margin: 0 !important;
     padding: 0 !important;
     border: 1px solid #53647c!important;
@@ -742,4 +746,195 @@ div.box {
 .ui-datepicker table{
     padding: 0!important;
     margin: 0!important;
+}
+.bottom .right-bottom .view{
+    width: 300px;
+    background: #ea6060;
+    height: 300px;
+    float: left;
+    margin-left: 15px;
+}
+.bottom .right-bottom .view h1{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 50px;
+    padding: 60px 80px 0;
+    text-transform: uppercase;
+}
+.bottom .right-bottom .view img{
+    cursor: pointer;
+    margin: 10px 0 0 80px;
+}
+.bottom .left-bottom .comments{
+    background: #4fc6f8;
+    width: 300px;
+    height: 440px;
+    float: left;
+    color: #ffffff;
+}
+.bottom .left-bottom .comments p{
+    font-size: 16px;
+    font-weight: normal;
+}
+.bottom .left-bottom .comments span{
+    font-weight: bold;
+}
+.bottom .left-bottom .comments .title{
+    border-bottom: 1px solid #7bd4fa;
+    float: left;
+    padding: 35px 0;
+    width: 100%;
+}
+.bottom .left-bottom .comments .title p{
+    float: left;
+    line-height: 25px;
+    padding: 0 45px 0 35px
+}
+.bottom .left-bottom .comments .title img{
+    float: left;
+    cursor: pointer;
+}
+.bottom .left-bottom .comments .f-comment{
+    float: left;
+    padding: 35px;
+    border-bottom: 1px solid #7bd4fa;
+}
+.bottom .left-bottom .comments .s-comment{
+    float: left;
+    padding: 35px;
+}
+#second-slider{
+    width: 300px;
+    height: 535px;
+    float: left;
+    margin: 15px 0 0;
+}
+#left-slider{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 535px;
+}
+#second-slider .rhino-bullets{
+    left: 280px;
+    top: 29px;
+}
+#second-slider .rhino-bullets li a.rhino-bullet.rhino-active-bullet{
+    background: url("../img/slider/2circle.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+#second-slider .rhino-bullets li a.rhino-bullet {
+    background: url("../img/slider/2circle-active.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    font-size: 0 !important;
+}
+#question{
+    float: left;
+    width: 300px;
+    height: 380px;
+    margin-top: 15px;
+    background: #ffffff;
+}
+#question p{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px;
+}
+#question div{
+    padding: 7px 17px;
+}
+#question input[type=text]{
+    border: 1px solid #dde2e4;
+    border-radius: 0;
+    color: #dde2e4;
+    height: 31px;
+    padding: 8px;
+    width: 243px;
+}
+#question input[type=submit]{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background: #ea6060;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+#question textarea{
+    width: 246px;
+    border: 1px solid #dde2e4;
+    border-radius: 0;
+    color: #dde2e4;
+    padding: 7px;
+}
+input[type=submit]{
+    cursor: pointer;
+}
+.bottom .right-bottom .big-info{
+    width: 615px;
+    height: 600px;float: left;
+    background: #787878;
+    margin-top: 15px;
+}
+.bottom .right-bottom .best-words{
+    width: 615px;
+    height: 150px;
+    float: left;
+    background: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.ui-datepicker-calendar tbody{
+
+}
+.ui-datepicker td {
+    border: 1px solid #53647c !important;
+    float: left !important;
+    height: 33px !important;
+    width: 40px !important;
+}
+.ui-datepicker-header, .ui-widget-header {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: medium none !important;
+    height: 58px;
+    padding-top: 28px !important;
+}
+.ui-datepicker td {
+    background: none repeat scroll 0 0 #263a54 !important;
+    border: 1px solid #53647c !important;
+    line-height: 33px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#tabs{
+    float: left;
+    height: 290px !important;
+    width: 615px !important;
+}
+#tabs  .ui-widget-header{
+    height: 45px!important;
+    padding: 0!important ;
+    width: 615px!important;
+    margin: 0!important;
+}
+#tabs .ui-widget-content{
+    width: 615px!important;
+    height: 245px!important;
+}
+#tabs  .ui-state-default, #tabs .ui-widget-content .ui-state-default, #tabs .ui-widget-header .ui-state-default{
+    background: #c5cdd1!important;
+    border-radius: 0!important;
+    border: none!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+#tabs .ui-state-active, #tabs .ui-widget-content .ui-state-active, #tabs .ui-widget-header .ui-state-active{
+    background: #ffffff!important;
+    border-radius: 0!important;
+    border: none!important;
+}
+#tabs .ui-state-hover, #tabs .ui-widget-content .ui-state-hover, #tabs .ui-widget-header .ui-state-hover, #tabs .ui-state-focus, #tabs .ui-widget-content .ui-state-focus, #tabs .ui-widget-header .ui-state-focus{
+    background: #ffffff!important;
+    border-radius: 0!important;
+    border: none!important;
 }

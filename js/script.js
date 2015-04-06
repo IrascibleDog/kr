@@ -9,6 +9,13 @@ $(document).ready(function(){
         changeBullets: 'before',
         showControls: 'always'
     });
+    $('#left-slider').rhinoslider({
+        controlsMousewheel: false,
+        controlsPlayPause: false,
+        showBullets: 'always',
+        changeBullets: 'before',
+        showControls: 'never'
+    });
     $( "#datepicker" ).datepicker({
         inline: true
     });
