@@ -8,7 +8,7 @@ $(document).ready(function(){
         showBullets: 'always',
         changeBullets: 'before',
         showControls: 'always'
-});
+    });
     $( "#datepicker" ).datepicker({
         inline: true
     });
