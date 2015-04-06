@@ -305,12 +305,11 @@
                                         <p>Sign up for our personalized daily newsletter</p>
                                         <div class="input-box spam-subscribe">
                                             <label for="newsletter"></label>
-                                            <input type="text" name="e-mail" id="newsletter" value="Enter email address"/>
+                                            <input class="validate-email required-entry" type="text" name="e-mail" id="newsletter" value="Enter email address"/>
                                             <input type="submit" value="SIGN UP"/>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </li>
@@ -330,11 +329,11 @@
                         <div id="login-form">
                             <div class="input-box">
                                 <label for="login-name">Enter your mail</label>
-                                <input type="text" id="login-name" name="question-name" value="Your e-mail"/>
+                                <input class="validate-email required-entry" type="text" id="login-name" name="question-name" value="Your e-mail"/>
                             </div>
                             <div class="input-box">
                                 <label for="login-password">Enter your password</label>
-                                <input type="password" id="login-password" name="question-mail" value="Password"/>
+                                <input class="required-entry" type="password" id="login-password" name="question-mail" value="Password"/>
                             </div>
                             <div class="input-box">
                                 <input type="submit" value="SUBMIT"/>
@@ -439,15 +438,15 @@
                 <div id="question">
                     <p>Ask a Question</p>
                     <div class="input-box">
-                        <input type="text" id="question-name" name="question-name" value="Your name"/>
+                        <input class="required-entry" type="text" id="question-name" name="question-name" value="Your name"/>
                         <label for="question-name"></label>
                     </div>
                     <div class="input-box">
-                        <input type="text" id="question-mail" name="question-mail" value="Your e-mail"/>
+                        <input class="validate-email required-entry" type="text" id="question-mail" name="question-mail" value="Your e-mail"/>
                         <label for="question-mail"></label>
                     </div>
                     <div class="input-box">
-                        <textarea name="question-text" id="question-text" cols="35" rows="5">Your question...</textarea>
+                        <textarea class="required-entry" name="question-text" id="question-text" cols="35" rows="5">Your question...</textarea>
                         <label for="question-text"></label>
                     </div>
                     <div class="input-box">
