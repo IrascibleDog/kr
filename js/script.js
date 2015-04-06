@@ -61,4 +61,7 @@ $(document).ready(function(){
     $("#second-text-cut").dotdotdot({
         after: "a.readmore"
     });
+    $("#third-text-cut").dotdotdot({
+        after: "a.readmore"
+    });
 });
