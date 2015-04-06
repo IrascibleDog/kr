@@ -476,3 +476,26 @@ body{
     background: url("../img/slider/left-arrow.png")no-repeat!important;
     left: 0!important;
 }
+.wrapper .middle{
+    float: left;
+    width: 100%;
+}
+.wrapper .middle .video-block{
+    float: left;
+    background: #ffffff;
+}
+.wrapper .middle .video-block .left{
+    width: 315px;
+    float: left;
+    height: 300px;
+}
+.wrapper .middle .video-block .right{
+    float: left;
+    height: 300px;
+    width: 615px;
+    position: relative;
+}
+.wrapper .middle .video-block .right img{
+    height: 300px;
+    width: 615px;
+}
