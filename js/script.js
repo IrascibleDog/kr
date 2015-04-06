@@ -97,6 +97,9 @@ $(document).ready(function(){
     });
 
     var entry = $('.required-entry');
+    $(entry).focus(function(){
+        $(this).val('');
+    });
     entry.blur(function(){
         if ($(this).val() != ""){
             $(this).css({border: '1px solid green'});
@@ -108,13 +111,17 @@ $(document).ready(function(){
     });
 
     var login = $('.validate-email');
+    $(login).focus(function(){
+       $(this).val('');
+    });
     login.blur(function () {
+        login = $(this);
         var val = login.val();
         if (validateEmail(val) == true){
-            $(this).css({border: '1px solid green'});
+            $(login).css({border: '1px solid green'});
         }
         else{
-            $(this).css({border: '1px solid red'});
+            $(login).css({border: '1px solid red'});
         }
     });
 });
