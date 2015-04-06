@@ -54,25 +54,6 @@ body{
     width: 930px;
     margin: 0 auto;
 }
-#slider {
-    width:600px;
-    height:250px;
-
-    /*IE bugfix*/
-    padding:0;
-    margin:0;
-}
-#page {
-    width:600px;
-    margin:50px auto;
-}
-#slider li {
-    list-style:none;
-}
-#page {
-    width:600px;
-    margin:50px auto;
-}
 .wrapper .header{
     float: left;
     margin: 105px 0 0;
@@ -455,6 +436,43 @@ body{
     margin-left: 10px;
     width: 80px;
 }
-.wrapper .middle{
-    
+#slider {
+    width:926px;
+    height:453px;
+
+    /*IE bugfix*/
+    padding:0;
+    margin:0;
+}
+#page {
+    width:926px;
+    margin: 15px 2px;
+    float: left;
+}
+#page li {
+    list-style:none;
+}
+.rhino-bullets{
+    background: none!important;
+}
+.rhino-bullets::before, .rhino-bullets::after {
+    background: none!important;
+}
+.rhino-bullets li a.rhino-bullet {
+    background: url("../img/slider/circle.png")no-repeat!important;
+    font-size: 0!important;
+}
+.rhino-bullets li a.rhino-bullet.rhino-active-bullet {
+    background: url("../img/slider/circle-active.png") no-repeat!important;
+}
+.rhino-prev, .rhino-next {
+    top: 200px;
+}
+.rhino-next {
+    background: url("../img/slider/right-arrow.png")no-repeat!important;
+    right: -22px!important;
+}
+.rhino-prev{
+    background: url("../img/slider/left-arrow.png")no-repeat!important;
+    left: 0!important;
 }
