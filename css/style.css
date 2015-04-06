@@ -1061,3 +1061,47 @@ input[type=submit]{
     font-size: 15px;
     float: left;
 }
+#login-form{
+    position: absolute;
+    z-index: 5;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    text-align: center;
+    color: #000000;
+    padding-top: 15px;
+    margin-left: -139px;
+    margin-top: -3px;
+    display: none;
+}
+#login-form input[type=text]{
+    border: 1px solid #dde2e4;
+    border-radius: 0;
+    color: #dde2e4;
+    height: 21px;
+    margin: 10px 0;
+    padding: 8px;
+    width: 160px;
+}
+#login-form input[type=password]{
+    border: 1px solid #dde2e4;
+    border-radius: 0;
+    color: #dde2e4;
+    height: 21px;
+    margin: 10px 0;
+    padding: 8px;
+    width: 160px;
+}
+#login-form input[type=submit]{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background: #ea6060;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+#login-form label{
+
+}

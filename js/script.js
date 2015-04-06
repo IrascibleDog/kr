@@ -30,6 +30,14 @@ $(document).ready(function(){
             $(".social-block").css("margin-left","15px");
         }
     );
+    $('.top-buttons>.login').hover(
+        function(){
+            $('#login-form').show(180);
+        },
+        function(){
+            $('#login-form').hide(180);
+        }
+    );
     $('.video-block>.right').hover(
         function(){
             $('.video-block>.right>.slide-right').show(250);
