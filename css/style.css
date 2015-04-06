@@ -1180,8 +1180,8 @@ fieldset .help {
     display: none;
 }
 #popupwrapper .content{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     margin: 100px auto;
     background: #ffffff;
 }
@@ -1192,3 +1192,17 @@ fieldset .help {
     padding: 20px;
     background: #000000;
 }
+#popupwrapper #popup-img{
+    float: left;
+}
+#popupwrapper #popup-title{
+    float: left;
+    font-size: 20px;
+    padding: 40px 0 0 40px;
+}
+#popupwrapper #popup-text{
+    float: left;
+    font-size: 12px;
+    padding: 10px 0 0 40px;
+}
+
