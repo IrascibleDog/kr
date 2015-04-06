@@ -927,6 +927,8 @@ input[type=submit]{
     border: none!important;
     margin: 0!important;
     padding: 0!important;
+    height: 45px!important;
+    width: 20%;
 }
 #tabs .ui-state-active, #tabs .ui-widget-content .ui-state-active, #tabs .ui-widget-header .ui-state-active{
     background: #ffffff!important;
@@ -937,4 +939,20 @@ input[type=submit]{
     background: #ffffff!important;
     border-radius: 0!important;
     border: none!important;
+}
+#tabs .ui-state-default a{
+    color: #ffffff!important;
+}
+#tabs .ui-state-active a, #tabs .ui-state-active a:link, #tabs .ui-state-active a:visited{
+    color: #000000!important;
+    line-height: 27px !important;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: left;
+    padding: 0.5em 28px!important;
+    text-decoration: none;
+}
+#tabs .ui-widget-content {
+    background: #ffffff!important;
+    color: #475055;
 }
