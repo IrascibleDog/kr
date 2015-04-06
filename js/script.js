@@ -23,6 +23,16 @@ $(document).ready(function(){
             $(".social-block").css("margin-left","15px");
         }
     );
+    $('.video-block>.right').hover(
+        function(){
+            $('.video-block>.right>.slide-right').show(250);
+            $('.video-block>.right>.play-button').show(250);
+        },
+        function(){
+            $('.video-block>.right>.slide-right').hide(250);
+            $('.video-block>.right>.play-button').hide(250);
+        }
+    );
     var count=1;
     $("#show-head-mid").click(function(){
         $('.show-head').slideToggle(300);
@@ -39,6 +49,9 @@ $(document).ready(function(){
         }
     });
     $("#first-text-cut").dotdotdot({
+        after: "a.readmore"
+    });
+    $("#second-text-cut").dotdotdot({
         after: "a.readmore"
     });
 });

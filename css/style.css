@@ -496,10 +496,33 @@ body{
     position: relative;
     background: #787878;
 }
+.wrapper .middle .video-block .right p{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.wrapper .middle .video-block .right img{
+    margin: 30px 35px 5px;
+}
+.video-block>.right>div>div:hover{
+    background: #ea6060;
+}
 .wrapper .middle .video-block .right .slide-right{
     background: none repeat scroll 0 0 #1f3045;
     height: 300px;
     width: 105px;
+    display: none;
+}
+.wrapper .middle .video-block .right .slide-right div{
+    cursor: pointer;
+}
+.wrapper .middle .video-block .right .play-button{
+    margin: 0;
+    position: absolute;
+    right: 250px;
+    top: 135px;
+    display: none;
+    cursor: pointer;
 }
 div.box {
     height: 120px;
@@ -538,4 +561,91 @@ div.box {
 .wrapper .middle .video-block .left #first-text-cut a{
     text-decoration: none;
     color: #ea6060;
+}
+.middle .after-video{
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    height: 300px;
+}
+.middle .after-video .first{
+    height: 300px;
+    float: left;
+    margin-right: 15px;
+    width: 300px;
+    background: #1f3045;
+}
+.middle .after-video .first{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.middle .after-video .first img{
+    padding: 130px 10px 0 20px;
+}
+.middle .after-video .first p{
+    margin-top: 10px;
+}
+.middle .after-video .first span{
+    margin-left: 30px;
+}
+.middle .after-video .second{
+    float: left;
+    height: 300px;
+    width: 615px;
+    background: #787878;
+}
+.middle .after-video .second .left .video{
+    background: none repeat scroll 0 0 #4fc6f8;
+    height: 30px;
+    width: 35px;
+    margin: 30px 0 0;
+    float: left;
+}
+.middle .after-video .second .left .video img{
+    padding: 6px;
+}
+.middle .after-video .second .left h1{
+    color: #475055;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 35px 0 0 75px;
+    width: 180px;
+}
+.middle .after-video .second .left .time{
+    color: #a3abaf;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 0 0 75px;
+}
+.middle .after-video .second .left #second-text-cut{
+    color: #475055;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.middle .after-video .second .left #second-text-cut a{
+    text-decoration: none;
+    color: #ea6060;
+}
+.middle .after-video .second  .left{
+    width: 315px;
+    float: left;
+    height: 300px;
+    background: #ffffff;
+}
+#second-text-cut{
+    height: 100px;
+}
+.bottom .left-bottom{
+    float: left;
+    width: 300px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.bottom .right-bottom{
+    float: left;
+    width: 615px;
+    margin-top: 15px;
 }
